@@ -1,19 +1,36 @@
 body {
     margin: 0px;
+    /*Remoção das margens para o elemento body*/
 }
 
 .container {
     width: 100vw;
+    /*Definição da largura para 100% 
+    com o uso da unidade vw (viewport width)*/  
     height: 100vh;
+    /*Definição da altura para 100%
+    com o uso da unidade vh (viewport height)*/
     background: blueviolet;
+    /*Atribuindo cor a DIV CONTAINER*/
     display: flex;
+    /*Adicionando a definição de flex ao display
+    configuramos ele para usar o recurso de layout flexível*/
     flex-direction: row;
+    /*A adição de row (linha) para essa propriedade faz
+    com que ela se mantenha em linha horizontal*/
     justify-content: center;
+    /*Definição dos objetos internos para se manter no centro
+    tendo a referencia da definição anterior como horizontal*/
     align-items: center;
+    /*Definindo como center faz a configuração dos elementos
+    internos para centralizar de forma vertical*/
 }
 
 .caixa {
     width: 250px;
+    /*Definição da largura*/
     height: 250px;
+    /*Definição da altura*/
     background: beige;
+    /*Atribuição de cor*/
 }
